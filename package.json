@@ -1,0 +1,26 @@
+{
+  "name": "ewd-vista-meditor",
+  "engines": {
+    "node": ">=6"
+  },
+  "version": "0.0.1",
+  "description": "QEWD VistA: Mumps Editor",
+  "main": "index.js",
+  "author": "Qazi Faisal Sami <faisalsami78@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Example-VistA-Hospital/ewd-vista-meditor.git"
+  },
+  "devDependencies": {
+    "eslint": "",
+    "eslint-plugin-json": ""
+  },
+  "ewdVista": {
+    "parentModule": "ewd-vista",
+    "name": "Mumps Editor",
+    "htmlName": "meditor",
+    "sortOrder": "90",
+    "securityKey": ""
+  }
+}

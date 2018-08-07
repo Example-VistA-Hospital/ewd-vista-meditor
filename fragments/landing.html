@@ -1,0 +1,100 @@
+<div class="container">
+    <!-- Main body -->
+    <div id="content" class="container row">
+        <!-- main CONTAINER -->
+        <div class="row">
+            <ul class="nav nav-tabs">
+
+            </ul>
+        </div>
+        <div class="row" style="height: 100%">
+            <div id="main_Container" class="tab-content">
+
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <div class="well" id="content_results"></div>
+        </div>
+    </nav>
+    <div class="modal fade bs-example-modal-sm" id="newRoutineModal" tabindex="-1" role="dialog" aria-labelledby="newRoutineModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="newRoutineModalLabel">New Routine</h4>
+                </div>
+                <div class="modal-body">
+                    <input id="txtNewRoutine" class="form-control" placeholder="Enter Routine Name">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnNROK" class="btn btn-primary">OK</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bs-example-modal-sm" id="saveChnagesModal" tabindex="-1" role="dialog" aria-labelledby="saveChnagesModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="saveChnagesModalLabel">Save Changes</h4>
+                </div>
+                <div class="modal-body">
+                    <div id="saveChangesBody"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnSCYes" class="btn btn-primary">Yes</button>
+                    <button type="button" id="btnSCNo" class="btn btn-primary">No</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bs-example-modal-sm" id="selectDirectoryModal" tabindex="-1" role="dialog" aria-labelledby="selectDirectoryModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="selectDirectoryModalLabel">Select Directory</h4>
+                </div>
+                <div class="modal-body">
+                    Select Directory for the routine <B id="selDirRoutine"></B>
+                    <div class="list-group" id="selectDirectoryBody">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnSDOK" class="btn btn-primary">OK</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bs-example-modal-sm" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="aboutModalLabel">About</h4>
+                </div>
+                <div class="modal-body">
+                    <h4>m-editor</h4>
+                    <p>Simple Web based Mumps Editor for <a href="http://www.fisglobal.com/products-technologyplatforms-gtm" target="_blank">gtm</a> to edit mumps routines online by utilizing ewd.js and Node.js.</p>
+                    <br/>
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Edit, Save, and Compile Routine</li>
+                        <li>Create new routine</li>
+                        <li>Full Screen button to view routine in full screen</li>
+                        <li>Bookmarking functions available as it is in Intersystems's Cache</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
