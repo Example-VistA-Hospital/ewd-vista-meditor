@@ -22,5 +22,19 @@
     "htmlName": "meditor",
     "sortOrder": "90",
     "securityKey": ""
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Example-VistA-Hospital/ewd-vista-meditor/issues"
+  },
+  "homepage": "https://github.com/Example-VistA-Hospital/ewd-vista-meditor#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "meditor",
+	"ewd-vista",
+	"qewd",
+	"mumps",
+	"editor"
+  ]
 }
